@@ -2,6 +2,7 @@
 ;;; lang/org/packages.el
 
 (package! org-plus-contrib)  ; install cutting-edge version of org-mode
+(package! jupyter)
 (package! org-bullets :recipe (:host github :repo "Kaligule/org-bullets"))
 (package! toc-org)
 (when (featurep! :editor evil)
@@ -43,3 +44,4 @@
   (package! centered-window :recipe (:host github :repo "anler/centered-window-mode"))
   (package! org-tree-slide)
   (package! ox-reveal))
+
